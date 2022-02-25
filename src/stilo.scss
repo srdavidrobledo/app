@@ -1,0 +1,61 @@
+.imagen{
+    max-height: 100%;
+    
+}
+
+.navegacion{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    position: relative;
+}
+
+.nav1{
+    display: flex;
+}
+
+.nav1 ul{
+    list-style: none;
+    display: flex;
+    text-align: center;
+}
+
+.nav1 ul, a{
+    padding: 5px;
+}
+
+.formulario{
+    display: flex;
+    align-items: center;
+    width: 400px;
+}
+
+.formulario #busqueda{
+    width: 100%;
+}
+
+.btn-group{
+    margin-left: 1rem;
+}
+
+.main_barra{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.col{
+    display: flex;
+    justify-items: center;  
+    margin: 2%;
+    padding: 2px;
+}
+
+
+
+#foot{
+    background: linear-gradient(#3b3a3a, #000000);
+    text-align: center;
+    align-items: center;
+    height: 3rem;
+}

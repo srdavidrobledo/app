@@ -1,17 +1,13 @@
+import imagen from "./imagenes/logo.png";
+
 function Header() {
     return (
-        <>
-            <header id="inicio">
-                <h1>Todo mundo</h1>
-                <nav>
-                    <ul>
-                        <li> <a href="#inicio"> links   </a> </li>
-                        <li> <a href="#foot"> links   </a> </li>
-                    </ul>
-                </nav>
-            </header>
-        </>
+        <header id="inicio">
+            <div >
+                <a href="#imagen"><img src={imagen} al="logo" /></a>
+            </div>
+        </header>
     )
-};  
+};
 
 export default Header;
