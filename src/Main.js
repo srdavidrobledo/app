@@ -7,7 +7,7 @@ const Main = () => {
           <p>
             Juegos populares
           </p>
-          <button type="button" class="btn btn-outline-primary">Ver Todos</button>
+          <button type="button" className="btn btn-outline-primary">Ver Todos</button>
         </div>
         <div className="container">
           <div className="row">

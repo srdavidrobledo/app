@@ -3,6 +3,11 @@
     
 }
 
+.logo2{
+    height: 100px;
+    width: 100px;
+}
+
 .navegacion{
     display: flex;
     justify-content: center ;
@@ -37,6 +42,18 @@
 .btn-group{
     margin-left: 1rem;
 }
+
+
+.saludo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 4rem;
+    padding: 5px;
+    margin: 5px;
+}
+
+
 
 .main_barra{
     display: flex;

@@ -1,3 +1,5 @@
+import  CartWidget  from "./CartWidget";
+
 function NavBar() {
     return (
         <>
@@ -7,13 +9,16 @@ function NavBar() {
                 </form>
             </nav>
             <div className="btn-group" role="group">
-                <button id="btnGroupDrop1" type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                <button id="btnGroupDrop1" type="button" className="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
                     Mas Opciones
                 </button>
                 <ul className="dropdown-menu" aria-labelledby="btnGroupDrop1">
                     <li><a className="dropdown-item" href="#imagen">Usuarios</a></li>
                     <li><a className="dropdown-item" href="#foot">Footer</a></li>
                 </ul>
+            </div>
+            <div>
+                <CartWidget />
             </div>
         </>
 
