@@ -76,3 +76,25 @@
     align-items: center;
     height: 3rem;
 }
+
+.botones{
+    display: flex;
+    flex-direction: column;
+}
+
+.CompraP{
+    padding-right: 2px;
+    margin: 2px;  
+    text-align: center;
+}
+
+.CompraB{
+    padding-right: 2px;
+    margin: 2px;
+    text-align: center;
+}
+
+.count{
+    display: flex;
+    width: 35%;
+}

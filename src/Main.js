@@ -1,4 +1,3 @@
-
 const Main = () => {
   return (
     <main>
@@ -23,9 +22,8 @@ const Main = () => {
           </div>
         </div>
       </div>
-
     </main>
-  )
+  );
 }
 
 export default Main;

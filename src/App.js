@@ -15,7 +15,7 @@ function App() {
                 <NavBar /> 
             </div>
             <ItemListContainer  
-             greeting="Bienvendios a la web mas gamer que existe." 
+             greeting="Bienvendios a la web mas gamer que existe."  
             />
             <Main/>   
             <Footer />
